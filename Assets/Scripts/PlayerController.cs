@@ -24,4 +24,5 @@ public class PlayerController : MonoBehaviour
             rb2d.AddTorque(-torqueAmount);
         }
     }
+
 }
