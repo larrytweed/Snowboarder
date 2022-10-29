@@ -30,12 +30,10 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.UpArrow))
         {
             surfaceEffector2D.speed = boostSpeed;
-            Debug.Log(surfaceEffector2D.speed);
         }
         else if (Input.GetKey(KeyCode.DownArrow))
         {
             surfaceEffector2D.speed = baseSpeed;
-            Debug.Log(surfaceEffector2D.speed);
         }
 
     }
